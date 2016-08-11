@@ -5,4 +5,4 @@ This is a very simple project for a standalone garage door opener running on a R
 This project requires Python 2.7/3, as well as the time, RPi.GPIO, and web.py modules. Time and RPi.GPIO are typically already installed on newer versions of Raspian. 
 
 ## Notes
-If you already have a home network, the Pi can be included in it, and the server access that way. If, like us, your garage is separate from your home and is not reachable by an existing network, the Pi can host a wireless access point, which you can then connect to to use the opener. 
+If you already have a home network, the Pi can be included in it, and the server accessed that way. If, like us, your garage is separate from your home and is not reachable by an existing network, the Pi can host a wireless access point, which you can then connect to to use the opener. 
