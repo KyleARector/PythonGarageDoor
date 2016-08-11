@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Garage Door</title>
+    <meta name="description" content="Garage Door">
+    <meta name="author" content="KyleARector">
+    <script>
+      function runRelay() {
+        var req = new XMLHttpRequest();
+        req.open("GET", "/relay", false);
+        req.send(null);
+      }
+    </script>
+    <style>
+      button {
+        display:block;
+        height: 300px;
+        width: 80%;
+        font-weight: bold;
+        font-size: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button type="submit" onclick="runRelay()">Garage Door</button>
+    </div>
+  </body>
+</html>
